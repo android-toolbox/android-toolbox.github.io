@@ -1,24 +1,22 @@
 {% for post in site.posts %}
-<div class="row">
-	<section class="3u">
-		<div class="circle">
-			<a href="#" class="image left">
-			    <!--
-                {{ post.date | date: '%Y' }}<br />
-			    {{ post.date | date: '%m - %d' }}
-			    -->
-			</a>
-		</div>
-	</section>
+	{% if post.categories contains 'toolbox' %}
+	<div class="row">
+		<section class="3u">
+			<div class="circle">
+				<a href="#" class="image left">
+				</a>
+			</div>
+		</section>
 	
-    <section class="9u">
-        <div class="">
-            <div class="inner">
-                <h3>{{ post.title }}</h3>{{ post.excerpt }}
-                <footer><a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a></footer>
-            </div>
-        </div>
-    </section>
+    	<section class="9u">
+        	<div class="">
+            	<div class="inner">
+                	<h3>{{ post.title }}</h3>{{ post.excerpt }}
+                	<footer><a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a></footer>
+            	</div>
+        	</div>
+ 		</section>
 </div>
+	{% endif %}
 {% endfor %}
 

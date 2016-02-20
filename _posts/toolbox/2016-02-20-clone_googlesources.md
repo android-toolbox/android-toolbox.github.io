@@ -1,6 +1,6 @@
 ---
 title:      Clone Google Sources
-category:	blog
+category:	toolbox
 tags:		sources
 layout:     post
 featured:   /assets/images/box.png

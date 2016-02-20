@@ -10,6 +10,8 @@ baseurl: #'/'
 paginate: 10
 
 
+markdown: redcarpet
+
 exclude:
   - assets/sass
   - work/**
@@ -20,3 +22,6 @@ exclude:
 
 gems:
   - jekyll-paginate
+  - redcarpet
+  - jekyll-gist
+  - pygments.rb

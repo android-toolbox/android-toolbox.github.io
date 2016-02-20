@@ -57,18 +57,8 @@
 								<p>Posted 20 Feb 2016</p>
 							</header>
 							<section class="box">
-								<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-
-wget -q https://android.googlesource.com/?format<span class="o">=</span>TEXT -O - | <span class="k">while </span><span class="nb">read </span>SAMPLE
-<span class="k">do
-	</span><span class="nv">REPOSITORY</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$SAMPLE</span> | sed <span class="s1">'1,$s#/#_#g'</span><span class="k">)</span>
-
-	<span class="nb">echo echo</span> <span class="nv">$SAMPLE</span> to <span class="nv">$REPOSITORY</span>
-
-	git clone -q https://android.googlesource.com/<span class="nv">$SAMPLE</span> <span class="nv">$REPOSITORY</span>
-<span class="k">done</span>
-</code></pre>
-</div>
+								<p><noscript><pre>400: Invalid request
+</pre></noscript><script src="https://gist.github.com/ecee7a2c85b8ae112989.js"> </script></p>
 
 							</section>
 						</section>
@@ -82,41 +72,11 @@ wget -q https://android.googlesource.com/?format<span class="o">=</span>TEXT -O 
 	
 		<section>
 			<a href="/blog/2016/02/20/clone_googlesources.html">Clone Google Sources</a>
-			<!-- <div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-
-wget -q https://android.googlesource.com/?format<span class="o">=</span>TEXT -O - | <span class="k">while </span><span class="nb">read </span>SAMPLE
-<span class="k">do
-	</span><span class="nv">REPOSITORY</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$SAMPLE</span> | sed <span class="s1">'1,$s#/#_#g'</span><span class="k">)</span>
-
-	<span class="nb">echo echo</span> <span class="nv">$SAMPLE</span> to <span class="nv">$REPOSITORY</span>
-
-	git clone -q https://android.googlesource.com/<span class="nv">$SAMPLE</span> <span class="nv">$REPOSITORY</span>
-<span class="k">done</span>
-</code></pre>
-</div>
+			<!-- <p><noscript><pre>400: Invalid request
+</pre></noscript><script src="https://gist.github.com/ecee7a2c85b8ae112989.js"> </script></p>
 
 			<footer>
 				<a href="/blog/2016/02/20/clone_googlesources.html" class="button">Continue Reading</a>
-			</footer>
-			-->
-		</section>
-	
-		<section>
-			<a href="/blog/2015/04/22/working-with-macros.html">Working with SAS Macros</a>
-			<!-- <p>#</p>
-
-			<footer>
-				<a href="/blog/2015/04/22/working-with-macros.html" class="button">Continue Reading</a>
-			</footer>
-			-->
-		</section>
-	
-		<section>
-			<a href="/blog/2014/08/31/starting-with-sas.html">Starting with SAS</a>
-			<!-- <p>#</p>
-
-			<footer>
-				<a href="/blog/2014/08/31/starting-with-sas.html" class="button">Continue Reading</a>
 			</footer>
 			-->
 		</section>
