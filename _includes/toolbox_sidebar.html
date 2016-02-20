@@ -1,0 +1,16 @@
+<div id="sidebar">
+
+	<!-- Sidebar -->
+	<h3>Categories</h3>
+	{% for post in site.posts %}
+		<section>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			<!-- {{ post.excerpt }}
+			<footer>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
+			</footer>
+			-->
+		</section>
+	{% endfor %}
+	
+</div>

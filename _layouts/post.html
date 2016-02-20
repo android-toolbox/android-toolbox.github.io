@@ -1,0 +1,28 @@
+{% include header.html %}
+<!-- Main -->
+<section class="wrapper style1">
+		<div class="container">
+			<div id="content">
+				<div class="row double">
+					<div class="8u">
+						<section>
+							<header class="major">
+								<h2>{{ page.title }}</h2>
+								<p>Posted {{ page.date | date_to_string }}</p>
+							</header>
+							<section class="box">
+								{{ page.content }}
+							</section>
+						</section>
+					</div>
+
+					<div class="4u">
+						{% include sidebar.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+</section>	
+{% include footer.html %}
+
+	

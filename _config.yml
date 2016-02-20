@@ -1,0 +1,22 @@
+# Site Settings
+name:         Android Toolbox
+description:  Android Toolbox
+keywords:     "Android, Toolbox"
+
+#
+baseurl: #'/'
+
+#
+paginate: 10
+
+
+exclude:
+  - assets/sass
+  - work/**
+  - compile
+  - build
+  - serve
+  - push
+
+gems:
+  - jekyll-paginate
